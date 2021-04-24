@@ -8,7 +8,7 @@ import (
 func main() {
 	//driver := agouti.GeckoDriver()
 
-	command := []string{"/home/z000ru5y/dev/d/ee-grab/ee-grab/drivers/geckodriver", "--port={{.Port}}"}
+	command := []string{"/home/z000ru5y/dev/d/ee-grab/ee-grab/drivers/geckodriver", "--port={{.port}}"}
 	driver := agouti.NewWebDriver("http://{{.Address}}", command,
 		"browser.download.folderList=2")
 
